@@ -128,10 +128,11 @@ let number11 = 1;
 let number12 = 6;
 let generateRandom = Math.random();
 /* console.log(generateRandom); */
-let randTo6 = generateRandom*6;
+let randTo6 = generateRandom*number12;
 /* console.log(randTo6); */
 let rand1To6 = Math.ceil(randTo6);
 console.log(`3: The random number between ${number11} and ${number12} is : ${rand1To6} `);
+
 
 
 
