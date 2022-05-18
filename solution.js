@@ -35,7 +35,8 @@ console.log(`Using strict equality check stings (${string1} and ${string2}) are 
 * Store the value `true` to a variable. Using a ternary operator,print the `false` option by checking the value of the initial variable. */
 
 let someVar = true;
-let terOp = someVar !== true ? 'true' : 'false';
+/* let terOp = someVar !== true ? 'true' : 'false'; */
+let terOp = !someVar? 'true' : 'false';
 console.log(terOp);//false
 
 /* #### 3. Short Circuit
